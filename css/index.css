@@ -1,0 +1,111 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 700 1em/1.38 Helvetica;
+  color: rgb(255, 255, 255);
+}
+
+.element {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+.text {
+  position: relative;
+  float: left;
+  color: rgb(255, 255, 255);
+}
+
+._button {
+  display: block;
+  position: relative;
+  float: left;
+  border-radius: 3px;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.element-1 {
+  z-index: 0;
+  height: 67px;
+  background-color: rgb(0, 0, 0);
+}
+
+.element-2 {
+  z-index: 3;
+  height: 531px;
+  background: url('../images/DU-Campus-Photo-2.jpg') rgb(0, 0, 0);
+  background-size: cover;
+  background-position: center center;
+  overflow: scroll;
+}
+
+.element-3 {
+  z-index: 6;
+  height: 107px;
+  background-color: rgb(233, 49, 49);
+}
+
+.element-4 {
+  z-index: 8;
+  height: 45px;
+  background-color: rgb(0, 0, 0);
+}
+
+.text-1 {
+  clear: both;
+  z-index: 1;
+  width: 26.4%;
+  min-height: 39px;
+  margin: -55px 0 0 23.59896%;
+  font-size: 1.75em;
+  font-weight: 400;
+}
+
+.text-2 {
+  clear: both;
+  z-index: 4;
+  width: 52.9166666666%;
+  min-height: 104px;
+  margin: -473px 0 0 23.58073%;
+  font-size: 1.375em;
+  text-align: center;
+}
+
+.text-3 {
+  z-index: 5;
+  width: 54.4166666666%;
+  min-height: 105px;
+  margin: -407px 0 0 23.5807291666%;
+  font-size: 4.5em;
+  text-align: center;
+}
+
+.text-4 {
+  clear: both;
+  z-index: 9;
+  width: 32.3333333333%;
+  min-height: 23px;
+  margin: -36px 0 0 23.5833333333%;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+._button-1 {
+  z-index: 2;
+  width: 12%;
+  height: 25px;
+  margin: -48px 0 0 64.39974%;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+._button-2 {
+  clear: both;
+  z-index: 7;
+  width: 25.6%;
+  height: 37px;
+  margin: -73px 0 0 37.19921875%;
+  font-size: 1.5em;
+}
