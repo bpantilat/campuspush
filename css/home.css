@@ -1,0 +1,119 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 3.688em/1.38 Raleway;
+  color: #2c3e50;
+}
+
+.element {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  position: relative;
+  float: left;
+  height: auto;
+  overflow: hidden;
+}
+
+.text {
+  position: relative;
+  float: left;
+}
+
+._button {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 4;
+  width: 20.4%;
+  height: 39px;
+  margin: -181px 0 0 16%;
+  border-radius: 3px;
+  background-color: #16a085;
+  font-size: 0.407em;
+  text-align: center;
+  color: #ecf0f1;
+}
+
+.element-1 {
+  z-index: 0;
+  height: 594px;
+  background-color: #2c3e50;
+}
+
+.element-2 {
+  z-index: 5;
+  height: 157px;
+  background-color: #2c3e50;
+}
+
+.element-3 {
+  z-index: 9;
+  height: 76px;
+  background-color: #bdc3c7;
+}
+
+.image-1 {
+  clear: both;
+  z-index: 1;
+  width: 199px;
+  margin: -572px 0 0 70.39974%;
+}
+
+.image-2 {
+  z-index: 8;
+  width: 226px;
+  margin: -134px 0 0 44.76563%;
+}
+
+.image-3 {
+  z-index: 7;
+  width: 226px;
+  margin: -134px 0 0 71.19922%;
+}
+
+.text-1 {
+  z-index: 2;
+  width: 40.8%;
+  min-height: 173px;
+  margin: -434px 0 0 16%;
+  font-size: 1em;
+  font-weight: 900;
+  line-height: 0.88;
+  color: #3498db;
+}
+
+.text-2 {
+  z-index: 3;
+  width: 40.7994791666%;
+  min-height: 173px;
+  margin: -328px 0 0 16%;
+  font-size: 1em;
+  font-weight: 900;
+  line-height: 0.88;
+  color: #bdc3c7;
+}
+
+.text-3 {
+  clear: both;
+  z-index: 6;
+  width: 27.2%;
+  min-height: 61px;
+  margin: -113px 0 0 10%;
+  font-size: 0.39em;
+  color: #16a085;
+}
+
+.text-4 {
+  clear: both;
+  z-index: 10;
+  width: 32.4%;
+  min-height: 33px;
+  margin: -51px 0 0 57.59896%;
+  font-size: 0.271em;
+  text-align: right;
+  color: #2c3e50;
+}
